@@ -11,6 +11,10 @@ export class happypage{
     }
  async launchHappy() {
     const url = ENV.URL;
+     if (!url) {
+    throw new Error("ENV.URL is not defined. Please check your .env file.");
+  }
+
   await this.page.goto(url)
 
  }
