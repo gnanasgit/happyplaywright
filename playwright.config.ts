@@ -1,16 +1,21 @@
-import { defineConfig, devices } from '@playwright/test';
+import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
   testDir: './tests',
+
   use: {
-    headless: true,  // ← Add this
+    headless: true,
     baseURL: process.env.BASE_URL,
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure',
   },
+
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      use: {
+        browserName: 'chromium',
+      },
     },
-    // ... other browsers
   ],
 });
