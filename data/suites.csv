@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","12512","launch happy page","Google Chrome","2026-02-09","passed","2026-02-09","","tests\launchhappypage.spec.ts","",""
+"","13268","launch happy page","chromium","2026-02-09","passed","2026-02-09","","launchhappypage.spec.ts","",""
+"","6065","launch happy page","Google Chrome","2026-02-09","passed","2026-02-09","","launchhappypage.spec.ts","",""
