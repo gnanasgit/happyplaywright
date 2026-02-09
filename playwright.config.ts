@@ -13,14 +13,14 @@ export default defineConfig({
       use: {
         ...devices['Desktop Chrome'],
         channel: 'chrome',
-        headless: true,
+        headless: process.env.CI ? true : false,
         screenshot: 'only-on-failure',
         video: 'retain-on-failure',
         viewport: null,
         deviceScaleFactor: undefined,
-        launchOptions: {
-          args: ['--start-maximized']
-        }
+        // launchOptions: {
+        //   args: ['--start-maximized']
+        // }
       }
     }
   ]
