@@ -7,21 +7,15 @@ export default defineConfig({
     ['list'],
     ['allure-playwright']
   ],
-  projects: [
-    {
-      name: 'Google Chrome',
-      use: {
-        ...devices['Desktop Chrome'],
-        channel: 'chrome',
-        headless: true,
-        screenshot: 'only-on-failure',
-        video: 'retain-on-failure',
-        viewport: null,
-        deviceScaleFactor: undefined,
-        // launchOptions: {
-        //   args: ['--start-maximized']
-        // }
-      }
+projects: [
+  {
+    name: 'chromium',
+    use: {
+      browserName: 'chromium',
+      headless: true,
+      screenshot: 'only-on-failure',
+      video: 'retain-on-failure',
     }
-  ]
+  }
+]
 });
