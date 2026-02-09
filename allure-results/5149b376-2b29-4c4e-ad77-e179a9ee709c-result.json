@@ -1,0 +1,201 @@
+{
+    "uuid": "5149b376-2b29-4c4e-ad77-e179a9ee709c",
+    "historyId": "0870925f722bc8c92a845b1bd9de6d8b:4151609b82fd60da52fe302128be4a3c",
+    "status": "passed",
+    "statusDetails": {},
+    "stage": "pending",
+    "steps": [
+        {
+            "status": "passed",
+            "statusDetails": {},
+            "stage": "pending",
+            "steps": [
+                {
+                    "status": "passed",
+                    "statusDetails": {},
+                    "stage": "pending",
+                    "steps": [
+                        {
+                            "status": "passed",
+                            "statusDetails": {},
+                            "stage": "pending",
+                            "steps": [],
+                            "attachments": [],
+                            "parameters": [],
+                            "start": 1770648670746,
+                            "name": "Launch browser",
+                            "stop": 1770648673246
+                        }
+                    ],
+                    "attachments": [],
+                    "parameters": [],
+                    "start": 1770648670736,
+                    "name": "Fixture \"browser\"",
+                    "stop": 1770648673247
+                },
+                {
+                    "status": "passed",
+                    "statusDetails": {},
+                    "stage": "pending",
+                    "steps": [
+                        {
+                            "status": "passed",
+                            "statusDetails": {},
+                            "stage": "pending",
+                            "steps": [],
+                            "attachments": [],
+                            "parameters": [],
+                            "start": 1770648673258,
+                            "name": "Create context",
+                            "stop": 1770648673299
+                        }
+                    ],
+                    "attachments": [],
+                    "parameters": [],
+                    "start": 1770648673250,
+                    "name": "Fixture \"context\"",
+                    "stop": 1770648673302
+                },
+                {
+                    "status": "passed",
+                    "statusDetails": {},
+                    "stage": "pending",
+                    "steps": [
+                        {
+                            "status": "passed",
+                            "statusDetails": {},
+                            "stage": "pending",
+                            "steps": [],
+                            "attachments": [],
+                            "parameters": [],
+                            "start": 1770648673308,
+                            "name": "Create page",
+                            "stop": 1770648673970
+                        }
+                    ],
+                    "attachments": [],
+                    "parameters": [],
+                    "start": 1770648673303,
+                    "name": "Fixture \"page\"",
+                    "stop": 1770648673970
+                }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "start": 1770648670730,
+            "name": "Before Hooks",
+            "stop": 1770648673970
+        },
+        {
+            "status": "passed",
+            "statusDetails": {},
+            "stage": "pending",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "start": 1770648673976,
+            "name": "Launch browser",
+            "stop": 1770648674717
+        },
+        {
+            "status": "passed",
+            "statusDetails": {},
+            "stage": "pending",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "start": 1770648674735,
+            "name": "Navigate to \"/\"",
+            "stop": 1770648680308
+        },
+        {
+            "status": "passed",
+            "statusDetails": {},
+            "stage": "pending",
+            "steps": [
+                {
+                    "status": "passed",
+                    "statusDetails": {},
+                    "stage": "pending",
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": [],
+                    "start": 1770648680311,
+                    "name": "Fixture \"page\"",
+                    "stop": 1770648680312
+                },
+                {
+                    "status": "passed",
+                    "statusDetails": {},
+                    "stage": "pending",
+                    "steps": [
+                        {
+                            "status": "passed",
+                            "statusDetails": {},
+                            "stage": "pending",
+                            "steps": [],
+                            "attachments": [],
+                            "parameters": [],
+                            "start": 1770648682130,
+                            "name": "Close context",
+                            "stop": 1770648683210
+                        }
+                    ],
+                    "attachments": [],
+                    "parameters": [],
+                    "start": 1770648680312,
+                    "name": "Fixture \"context\"",
+                    "stop": 1770648683210
+                }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "start": 1770648680309,
+            "name": "After Hooks",
+            "stop": 1770648683225
+        }
+    ],
+    "attachments": [],
+    "parameters": [
+        {
+            "name": "Project",
+            "value": "Google Chrome"
+        }
+    ],
+    "labels": [
+        {
+            "name": "language",
+            "value": "JavaScript"
+        },
+        {
+            "name": "framework",
+            "value": "Playwright"
+        },
+        {
+            "name": "titlePath",
+            "value": " > Google Chrome > tests\\launchhappypage.spec.ts"
+        },
+        {
+            "name": "host",
+            "value": "GnanaSharma"
+        },
+        {
+            "name": "thread",
+            "value": "GnanaSharma-30984-playwright-worker-0"
+        },
+        {
+            "name": "parentSuite",
+            "value": "Google Chrome"
+        },
+        {
+            "name": "suite",
+            "value": "tests\\launchhappypage.spec.ts"
+        }
+    ],
+    "links": [],
+    "start": 1770648670727,
+    "name": "launch happy page",
+    "fullName": "tests/launchhappypage.spec.ts#launch happy page",
+    "testCaseId": "0870925f722bc8c92a845b1bd9de6d8b",
+    "stop": 1770648683239
+}
