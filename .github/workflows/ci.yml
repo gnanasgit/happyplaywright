@@ -1,5 +1,8 @@
 name: CI and Deploy Allure Report
 
+permissions:
+  contents: write
+
 on:
   push:
     branches: [ main, master ]
