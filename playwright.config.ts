@@ -13,7 +13,7 @@ export default defineConfig({
       use: {
         ...devices['Desktop Chrome'],
         channel: 'chrome',
-        headless: process.env.CI ? true : false,
+        headless: true,
         screenshot: 'only-on-failure',
         video: 'retain-on-failure',
         viewport: null,
